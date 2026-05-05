@@ -1,0 +1,51 @@
+# Checkpoints / trained weights (large, reproducible via training)
+agents/
+
+# Private notes
+private_notes/
+
+# Weights & Biases local sync (runs, logs, blobs)
+wandb/
+
+# Python 
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+downloads/
+*.egg-info/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env files with secrets (e.g. W&B keys)
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# VS Code
+.vscode/
+
+# RLViser binary is large and machine-specific
+rlviser.exe
