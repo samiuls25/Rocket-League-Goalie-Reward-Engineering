@@ -2,6 +2,15 @@
 
 Comparative reward engineering project for Rocket League goalie agents using PPO and RocketSim.
 
+## Demos
+
+| Sparse (40M) | Dense (40M) | Context v3 (40M) |
+| :---: | :---: | :---: |
+| <img width="260" alt="phase1_sparse40m" src="https://github.com/user-attachments/assets/a4a811f9-fcd6-478c-9b40-975f99ef4e13" /> | <img width="260" alt="phase1_dense40m" src="https://github.com/user-attachments/assets/163f13fa-b89d-4852-a8e3-72a4c474b580" /> | <img width="260" alt="phase1_contextv31" src="https://github.com/user-attachments/assets/390dbdd2-0c8f-4a3d-ac4f-c8a01fe489d4" /> |
+| Little learning. | Active ball interaction. | Corrected reward, still low contact. |
+
+**Full playbacks (all 5 runs):** [sparse](https://drive.google.com/file/d/1eYVl0I2iisNpYHPvyfPsBx8LpehN3P2t/view?usp=sharing) · [dense](https://drive.google.com/file/d/1ZQlz9Vw4eBNNCMKKI-vKwDNA-GQ46lTA/view?usp=sharing) · [context_40m](https://drive.google.com/file/d/15dLHT5lIlw1QM5xDYNnH29SG7xlMWGB0/view?usp=sharing) · [context_v2](https://drive.google.com/file/d/1dCuEvIvFEb1LMDZQiGj6DjJRMKydyFlO/view?usp=sharing) · [context_v3](https://drive.google.com/file/d/1fWNQtuZb-rYYGxlsYWN_4OnvjH7lIQZd/view?usp=sharing)
+
 ## Simple Project Map
 
 - trainer.py
